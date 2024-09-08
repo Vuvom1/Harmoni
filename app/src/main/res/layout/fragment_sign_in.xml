@@ -31,17 +31,17 @@
         app:layout_constraintTop_toBottomOf="@+id/logo_icon" />
 
     <EditText
-        android:id="@+id/textfieldUsername"
+        android:id="@+id/textfieldEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
-        android:autofillHints="username"
+        android:autofillHints="emailAddress"
         android:background="@drawable/textfield_background"
         android:ems="10"
-        android:hint="@string/username"
-        android:inputType="text"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,12 +58,12 @@
         android:hint="@string/password"
         android:inputType="textPassword"
         android:padding="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/textfieldUsername"
-        app:layout_constraintStart_toStartOf="@+id/textfieldUsername"
-        app:layout_constraintTop_toBottomOf="@+id/textfieldUsername" />
+        app:layout_constraintEnd_toEndOf="@+id/textfieldEmail"
+        app:layout_constraintStart_toStartOf="@+id/textfieldEmail"
+        app:layout_constraintTop_toBottomOf="@+id/textfieldEmail" />
 
     <Button
-        android:id="@+id/buttonSignUp"
+        android:id="@+id/buttonSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"

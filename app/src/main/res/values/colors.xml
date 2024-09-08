@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#1E1E1E</color>
     <color name="secondary">#6DB191</color>
+    <color name="transparent">#00000000</color>
     <color name="textfield">#E9EFEC</color>
 </resources>

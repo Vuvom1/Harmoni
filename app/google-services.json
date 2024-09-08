@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214871688418",
+    "project_id": "harmoni-cccef",
+    "storage_bucket": "harmoni-cccef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214871688418:android:b55e0366c911813fc28abb",
+        "android_client_info": {
+          "package_name": "com.example.harmoni"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA33CWpUJ17V4tR1pViltC-gI95uGzvqd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

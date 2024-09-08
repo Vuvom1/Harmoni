@@ -56,7 +56,7 @@
         android:background="@drawable/textfield_background"
         android:ems="10"
         android:autofillHints="emailAddress"
-        android:hint="@string/username"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textfieldUsername"
